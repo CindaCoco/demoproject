@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 @MapperScan("com.example.demo.dao.mapper")
-public class MyConfiguration {
+public class MybatisConfiguration {
 
     /**
      * 添加分页插件

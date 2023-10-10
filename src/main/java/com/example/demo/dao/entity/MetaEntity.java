@@ -13,6 +13,8 @@ import lombok.Data;
 @TableName("meta")
 @Data
 public class MetaEntity {
+    public static final String META_ID = "meta_id";
+
     @TableId(type = IdType.AUTO)
     private Long id;
     private Long metaId;
